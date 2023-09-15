@@ -1,8 +1,9 @@
-
-
-
 <?php
 
+session_start();
+if(!isset($_SESSION['balance'])){
+    $_SESSION['balance'] = 0;
+}
 class BankAccount
 {
     private $cash;
@@ -19,14 +20,19 @@ class BankAccount
     public function deposit($cash)
     {
         $this->cash = $cash;
+        $this->balance = $_SESSION['balance'];
+        echo $this->balance;
         if ($this->accountNumber_new == self::ACCNO) {
-            echo "The balance originally is " . $this->balance;
+            echo "The balance originally is " . $_SESSION['balance'];
             echo "<br>";
             echo " now the balance  after deposit " . $this->balance = $this->balance + $this->cash;
+            $this->updateBal();
             echo "<br><hr>";
         } else {
             echo "please enter a valid Acc no. ";
         }
+
+
 
     }
 
@@ -50,7 +56,10 @@ class BankAccount
     }
     public function updateBal()
     {
-        $this->balance = $this->balance + $this->cash;
+        // $this->balance = $this->balance + $this->cash;
+        // echo $this->balance;
+        $_SESSION['balance'] = $this->balance;
+
     }
 }
 
@@ -63,14 +72,17 @@ class BankAccount
 
 // $obj1->deposit(5000);
 
-$deposit = $_GET['deposit'];
-$action = $_GET['action'];
-echo ($deposit);
-if ($action == "deposit") {
-    $obj1 = new BankAccount(1234);
-    $obj1->deposit($deposit);
-}
-?>
+// $deposit = $_GET['deposit'];
+// $action = $_GET['action'];
+// echo ($deposit);
+// if ($action == "deposit") {
+//     $obj1 = new BankAccount(1234);
+//     $obj1->deposit($deposit);
+// }
+
+$obj1 = new BankAccount(1234);
+$obj1->deposit(5000);
+
 
 
 
