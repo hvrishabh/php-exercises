@@ -1,0 +1,61 @@
+PHP OOP : Exercises Practice Solution [ 19 exercises with solution ]
+[An editor is available at the bottom of the page to write and execute the scripts. Go to the editor]
+
+The following exercises cover a range of OOP concepts in PHP and will help you practice and reinforce your understanding of object-oriented programming.
+
+1. Write a PHP class 'Rectangle' that has properties for length and width. Implement methods to calculate the rectangle's area and perimeter.
+Click me to see the sample solution
+
+2. Write a PHP class called 'Circle' that has a radius property. Implement methods to calculate the circle's area and circumference.
+Click me to see the sample solution
+
+3. Write a PHP class called 'Shape' with an abstract method 'calculateArea()'. Create two subclasses, 'Triangle' and 'Rectangle', that implement the 'calculateArea()' method.
+Click me to see the sample solution
+
+4. Write a PHP interface called 'Resizable' with a method 'resize()'. Implement the 'Resizable' interface in a class called 'Square' and add functionality to resize the square.
+Click me to see the sample solution
+
+5. Write a PHP class called 'Vehicle' with properties like 'brand', 'model', and 'year'. Implement a method to display the vehicle details.
+Click me to see the sample solution
+
+6. Write a PHP a class hierarchy for a library system, including classes like 'LibraryItem', 'Book', 'DVD', etc. Implement appropriate properties and methods for each class.
+Click me to see the sample solution
+
+7. Write a PHP class called 'Student' with properties like 'name', 'age', and 'grade'. Implement a method to display student information.
+Click me to see the sample solution
+
+8. Write a PHP a class called "BankAccount" with properties like "accountNumber" and "balance". Implement methods to deposit and withdraw money from the account.
+Click me to see the sample solution
+
+9. Write a PHP abstract class called 'Animal' with abstract methods like 'eat()' and 'makeSound()'. Create subclasses like 'Dog', 'Cat', and 'Bird' that implement these methods.
+Click me to see the sample solution
+
+10. Write a PHP class called 'Person' with properties like 'name' and 'age'. Implement the '__toString()' magic method to display person information.
+Click me to see the sample solution
+
+11. Write a class called 'Employee' that extends the 'Person' class and adds properties like 'salary' and 'position'. Implement methods to display employee details.
+Click me to see the sample solution
+
+12. Write a class called 'Product' with properties like 'name' and 'price'. Implement the 'Comparable' interface to compare products based on their prices.
+Click me to see the sample solution
+
+13. Write a class called 'Logger' with a static property called 'logCount' that keeps track of the number of log messages. Implement a static method to log a message.
+Click me to see the sample solution
+
+14. Write a class called 'Math' with static methods like 'add()', 'subtract()', and 'multiply()'. Use these methods to perform mathematical calculations.
+Click me to see the sample solution
+
+15. Write a PHP class called 'File' with properties like 'name' and 'size'. Implement a static method to calculate the total size of multiple files.
+Click me to see the sample solution
+
+16. Write a PHP class called 'Calculator' that has a private property called 'result'. Implement methods to perform basic arithmetic operations like addition and subtraction.
+Click me to see the sample solution
+
+17. Write a PHP class called 'ShoppingCart' with properties like 'items' and 'total'. Implement methods to add items to the cart and calculate the total cost.
+Click me to see the sample solution
+
+18. Write a PHP class called 'Logger' that uses the singleton design pattern to ensure only one instance of the class can be created.
+Click me to see the sample solution
+
+19. Write a class called 'Validation' with static methods to validate email addresses, passwords, and other common input fields.
+Click me to see the sample solution

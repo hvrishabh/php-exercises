@@ -1,0 +1,34 @@
+PHP Error and Exception Handling [ 10 exercises with solution ]
+[An editor is available at the bottom of the page to write and execute the scripts. Go to the editor]
+
+The following exercises should provide an effective foundation for practicing error handling and exception handling in PHP. Remember to provide solutions along with exercises for your users to learn from.
+
+1. Write a PHP program that demonstrates the basic usage of try-catch blocks to handle exceptions.
+Click me to see the sample solution
+
+2. Write a PHP program that creates a custom exception class in PHP and throw an instance of it within a try block.
+Click me to see the sample solution
+
+3. Write a PHP program that implements a PHP function that divides two numbers but throws an exception if the denominator is zero.
+Click me to see the sample solution
+
+4. Write a PHP script that uses try-catch blocks to handle different types of exceptions and display appropriate error messages.
+Click me to see the sample solution
+
+5. Write a PHP program that reads data from a file and throws a custom exception if the file does not exist.
+Click me to see the sample solution
+
+6. Write a PHP function that takes a string as input and throws an exception if the string is empty.
+Click me to see the sample solution
+
+7. Write a PHP program that implements multiple catch blocks to handle different types of exceptions.
+Click me to see the sample solution
+
+8. Write a PHP program that simulates a database connection and throws an exception if it fails.
+Click me to see the sample solution
+
+9. Write a PHP script that implements the use of the finally block in exception handling.
+Click me to see the sample solution
+
+10. Write a PHP program that uses a try-catch block to handle a specific exception and performs specific actions based on the exception type.
+Click me to see the sample solution

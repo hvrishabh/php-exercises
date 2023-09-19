@@ -1,0 +1,52 @@
+PHP Cookies and Sessions: Exercises Practice Solution [ 16 exercises with solution ]
+[An editor is available at the bottom of the page to write and execute the scripts. Go to the editor]
+
+The following exercises cover various aspects of working with cookies and sessions in PHP. These include setting and retrieving values, session management, session security, and common usage scenarios.
+
+1. Write a PHP script to set a cookie named "username" with the value "Gulnara Serik" and an expiration time of one hour.
+Click me to see the sample solution
+
+2. Write a PHP script to retrieve and display the value of the cookie named "username".
+Click me to see the sample solution
+
+3. Write a PHP script to delete a cookie named "username".
+Click me to see the sample solution
+
+4. Write a PHP script to set a session variable named "userid" with the value 10020.
+Click me to see the sample solution
+
+5. Write a PHP script to retrieve and display the value of the session variable "userid".
+Click me to see the sample solution
+
+6. Write a PHP script to destroy a session and unset all session variables.
+Click me to see the sample solution
+
+7. Write a PHP script to set a secure cookie that can only be transmitted over an encrypted connection.
+Click me to see the sample solution
+
+8. Write a PHP script to check if a cookie named "visited" exists. If it does, display a welcome message; otherwise, display a default message.
+Click me to see the sample solution
+
+9. Write a PHP script to store an array of user preferences in a session variable.
+Click me to see the sample solution
+
+10. Write a PHP script to retrieve and display user preferences stored in the session variable.
+Click me to see the sample solution
+
+11. Write a PHP script to set a session timeout after 30 minutes of inactivity.
+Click me to see the sample solution
+
+12. Write a PHP script to display the number of active sessions on the server.
+Click me to see the sample solution
+
+13. Write a PHP script to limit the maximum number of concurrent sessions for a user to 3.
+Click me to see the sample solution
+
+14. Write a PHP script to regenerate the session ID to prevent session fixation attacks.
+Click me to see the sample solution
+
+15. Write a PHP script to display the last time the session was accessed by the user.
+Click me to see the sample solution
+
+16. Write a PHP script to set a cookie and a session variable with the same name. Display their values to compare.
+Click me to see the sample solution
